@@ -1,0 +1,66 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Sign In Container */
+.container1 {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Sign In Heading */
+.container1 h1 {
+  color: #333;
+}
+
+/* Sign In Form */
+.container1 form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Label */
+.container1 label {
+  margin: 15px 0;
+  color: #555;
+}
+
+/* Form Input */
+.container1 input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+/* Sign In Button */
+.container1 button {
+  background-color: #4f46e5;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Sign In Button Hover */
+.container1 button:hover {
+  background-color: #3730a3;
+}
+
+/* Button Container */
+.but {
+  margin-top: 25px;
+}
